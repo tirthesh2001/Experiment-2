@@ -1,6 +1,4 @@
 #Experiment 2
-#1) Basic Math Operation
-#2) Menud driven with exit condition
 def add(x,y):
     return x+y
 def sub(x,y):
@@ -39,4 +37,11 @@ while a==0:
     else:
 	    print("Invalid Input")
 	    a=0
-
+x = int(input("Enter 1 no: "))
+y = int(input("Enter 2 no: "))
+print("Select option: ")
+print("1. Addition")
+print("2. Substraction")
+print("3. Multiplication")
+print("4. Division")
+print("5. Exit")
